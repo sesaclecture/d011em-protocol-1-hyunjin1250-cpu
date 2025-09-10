@@ -113,6 +113,7 @@ def receive_msg() -> None:
     - 'exit' (대소문자 무시) 라인을 수신하면 함수 종료
     """
     # TODO: blink_led_through_button 구현
+    #
     ser = Serial("/dev/ttyAMA3", baudrate=115200, timeout=1.0)
 
     try:
